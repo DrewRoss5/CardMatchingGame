@@ -1,0 +1,66 @@
+html{
+    background-color: #ff7777;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+/* Card and Card Table Styles */
+#cardTable{
+    font-size: 5em;
+    width: 95%;
+    margin-left: 2.5%;
+}
+
+td.card{
+    background-color: #660000;
+    width: 12%;
+    border-radius: 12px;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    font-family: monospace;
+}
+
+/* Hidden card styles */
+td.hidden{
+    -webkit-user-select: none;
+    -ms-user-select: none; 
+    user-select: none; 
+    color: #660000;
+}
+td.hidden:hover{
+    color: #aa0000;
+    background-color: #aa0000
+}
+
+/* Thank you message styles */
+div#thanks{
+    background-color: #fff;
+    color: black;
+    border-radius: 20px;
+    width: 30%;
+    margin-left: 35%;
+
+}
+
+/* Peeked and revealed card styles */
+td.peek,
+td.reveal{
+    color: #fff;
+}
+
+/* Other Styles */
+#startForm{
+    width: 100%;
+    background-color: #ffaaaa;
+}
+
+p#guessCount{
+    width: 100%;
+    background-color: #ffaaaa;
+    color: #993333;
+}
+
